@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everlasting Love - Marriage Registration</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      z-index:2;
+
+    }
+    .main{
+        height: 100vh;
+      background-image: url('resources/removebg-preview.png.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      z-index: 0;
+
+    }
+
+    .blur-background{
+             background-color: rgba(240,240,240,0.3); 
+            height:100vh;
+            position:relative;
+    }
+    .go-down{
+        text-align:center;
+        position:absolute;
+        bottom:0px;
+        margin-left:50%;
+        transform:translateX(-50%);
+
+    }
+
+    .love-quote{
+            width:50%;
+            position:absolute;
+            text-align: left;
+            top:20%;
+            left:40%;
+            padding:10px;
+            
+            /* glass bg code down  */
+            background: rgba(202, 201, 201, 0.16);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.4px);
+-webkit-backdrop-filter: blur(1.4px);
+border: 1px solid rgba(202, 201, 201, 0.3);
+
+        
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between; /* Optional: Adjust alignment of logo and navigation links */
+      align-items: center;
+     padding:0px;
+     margin:0px;
+     height:150px;
+    }
+
+    .logo {
+
+      width: auto; /* Adjust logo width as needed */
+      height:140px ; /* Adjust logo height as needed */
+      padding:15px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-left: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    main {
+      flex: 1; /* Make main content take up remaining space */
+    }
+
+    li a:hover{
+        text-decoration: none;
+        color:blue;;
+
+    }
+    #signup{
+        text-decoration: none;
+        
+        display: block;
+        padding:10px;
+ 
+        
+        background-color: rgb(46, 97, 249);
+        border-radius: 4px;
+        color:white;
+        width:50px;
+    }
+    #signup:hover{
+
+        background-color: rgb(67, 67, 240);
+
+    }
+    .line1{
+        font-size:26px;
+        font-weight: bold;
+    }
+    .line2{ font-size:46px;}
+    .line3{ font-size:22px;}
+    .line1,.line2,.line3 {color:white;}
+    .line2,.line3{font-family: Geneva,Verdana, Tahoma, sans-serif}
+    #logo-div ,#logo-div p{
+        display:inline-block;
+        
+    }
+    #logo-div p{
+        font-size:28px;
+        color:white;
+        font-family:  Geneva, Verdana,Tahoma, sans-serif;
+        position: absolute;
+        top:16px;
+
+        text-shadow: 1px 1px 2px rgb(77, 77, 73);
+    }
+  </style>
+</head>
+
+<body>
+    <div class="main">
+        <div>
+
+      <header>
+    <div id="logo-div">
+        <img src="resources/logo_cut.png-removebg-preview.png" alt="Everlasting Love Logo" class="logo">
+    <p>Knotted Hearts<br> Registry</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="trialsign.html">Signup</a></li>
+        <li><a href="login.jsp">Login</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="love-quote">
+    <div class="line1">Welcome to Knotted Hearts Registry</div>
+    <div class="line2"> Because happily ever after deserves a record.<br>
+               <b>Register your marriage with Knotted Hearts Registry.</b></div>
+    <div class="line3"> .....  </div>
+    <a href="trialsign.html" id="signup">Signup</a>
+    <div> </div>            
+
+
+  </div>
+  <div class="go-down">
+    <p>Knotted Hearts Registry 2024</p>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms and Conditions</a>
+  </div>
+    </div>
+</div>
+</body>
+
+</html>
